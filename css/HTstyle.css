@@ -1,0 +1,109 @@
+/**********************************************
+Theme Name: CTHREEPO
+Theme URI: http://www.CTHREEPO.org
+Description: Butchered responsive website
+Version: 0.2
+Author: Keith Graham
+*************************************************/
+
+#container {
+	font-family:Georgia,"Times New Roman",Times,serif;
+	max-width:1024px;
+    margin:0;
+	padding:0;
+	position:relative;
+    font-size:calc(14px + 1.7vw);
+	
+}
+
+table {
+	max-width:100%;
+}
+td {
+	position:relative;
+}
+img {
+	max-width:100%;
+	min-width:24px;
+}
+.article {
+	position:relative;
+}
+
+
+
+#newhead {
+   position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+	background-color:#000000;
+	width:100%;
+	max-width:1024px;
+	min-width:300px;
+	position:relative;
+    padding-bottom: 20%;	
+	background-image:url(../images/banner3.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:  auto 100%;
+	overflow:hidden;
+	font-size:calc(18px + 1vw);
+    margin:0;
+ }
+
+
+
+#wander a {
+    color:#444444;
+	font-size:calc(15px + 1vw);
+}
+#wander {
+	float:right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:calc(16px + 1vw);
+	font-style: italic;
+	font-weight: lighter;
+	color: #000000;
+	text-decoration:none;
+	margin-right:20%;
+	margin-top:12px;
+	white-space: nowrap;
+}
+#brow {
+	position:absolute;
+	bottom:4px;
+	font-size:calc(10px + 1.8vw);
+    width:100%;
+	max-height:12%;
+	padding-bottom:1%;
+}
+
+#brow a {
+    color:ivory;
+}
+
+#content {
+	position:relative;
+	margin:0px;
+	max-width:1024px; 
+	clear:both;
+}
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+li {
+	line-height: 150%;
+}
+ol {
+	line-height: 150%;
+}
+body {
+    font-size:calc(16px + 1.5vw);
+	font-family:Georgia,"Times New Roman",Times,serif;
+    line-height: normal;
+	max-width:1024px;
+	
+}
