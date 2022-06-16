@@ -15,7 +15,10 @@ Author: Keith Graham
     font-size:calc(14px + 1.7vw);
 	
 }
+h1 {
+		font-size:calc(2em);
 
+}
 table {
 	max-width:100%;
 }
@@ -101,7 +104,6 @@ ol {
 	line-height: 150%;
 }
 body {
-    font-size:calc(16px + 1.5vw);
 	font-family:Georgia,"Times New Roman",Times,serif;
     line-height: normal;
 	max-width:1024px;
